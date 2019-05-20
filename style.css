@@ -82,6 +82,7 @@ h2{
     text-align: center;
     font-size: 2em;
     margin-bottom: 50px;
+
 }
 .service-container{
     display: flex;
@@ -99,11 +100,14 @@ h2{
     width: 100px;
     height: 100px;
 }
-h2{
-    font-family: 'Cookie', cursive;
+* h2{
+    font-family: 'Lobster Two', cursive !important;
     font-weight: bold;
 }
-
+#services p{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
 
 /* service image-hover */
 
@@ -113,6 +117,8 @@ i.fab.fa-html5 , i.fab.fa-css3-alt , i.fab.fa-js{
 i.fab.fa-html5:hover , i.fab.fa-css3-alt:hover , i.fab.fa-js:hover{
     color: #ed484c;
 }
+
+/* portfolio */
 
 #portfolio{
     background-image: url(images/floral.png);
@@ -128,12 +134,58 @@ i.fab.fa-html5:hover , i.fab.fa-css3-alt:hover , i.fab.fa-js:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 2em 4em 0 4em;
 }
 #portfolio div img{
     width: 250px;
-    height: 180px; 
+    height: 180px;
+    border-radius: 10px; 
 }
+
+/* Portfolio hover effects */
+
+
+.portfolio-img{
+    position: relative;
+	top: 0;
+    left: 0;
+    z-index: 1;
+}
+.caption{
+	text-align: center;
+	padding: 42px 0px 42px 0;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: inherit;
+	opacity: 0;
+	background-color: rgb(0,0,0,0.8);
+    color: white;
+    border-radius: 10px;
+
+}
+.portfolio-img:hover  .caption{
+	opacity: 1;
+}
+#portfolio .btn{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: white;
+    color: white;
+    
+}
+#portfolio .btn:hover{
+    background-color: rgba(245, 223, 195, 0.856);
+    color: black;
+    cursor: pointer;
+}
+
+/* contact us */
+
 #contact{
     background-image: url(images/floral.png);
     background-color: rgba(89, 146, 145, 0.4);
