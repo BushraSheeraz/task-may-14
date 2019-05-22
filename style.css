@@ -60,8 +60,8 @@ main{
 }
 
 #about h1{
-    font-size: 4em;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 4em;
     font-weight: bolder;
 }
 
