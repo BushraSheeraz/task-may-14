@@ -159,8 +159,9 @@ i.fab.fa-html5:hover , i.fab.fa-css3-alt:hover , i.fab.fa-js:hover{
 .portfolio-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 2em 4em 0 4em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em 6em 0 6em;
 }
 
 #portfolio div img{
@@ -177,7 +178,7 @@ i.fab.fa-html5:hover , i.fab.fa-css3-alt:hover , i.fab.fa-js:hover{
 	/* top: 0;
     left: 0;
     z-index: 1; */
-    margin: 0 35px;
+    margin: 1em 3em;
 }
 
 .caption{
