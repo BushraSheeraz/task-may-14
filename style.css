@@ -230,12 +230,12 @@ i.fab.fa-html5:hover , i.fab.fa-css3-alt:hover , i.fab.fa-js:hover{
     border-radius: 80%;
     padding: 1em 24px;
     font-size: 25px;
-    background: none;
+    background-color:rgba(89, 146, 145, 0.1);
     border-color: #575656b6; 
 }
 
 .contact-button button:hover{
-    background-color: black;
+    background-color: black !important;
     color: #fcdea6;
     cursor: pointer;
 }
