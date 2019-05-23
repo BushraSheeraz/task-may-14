@@ -23,9 +23,9 @@ header{
     padding: 8px 0px;
     z-index: 1000;
     overflow: hidden;
-    position: fixed;
+    position: sticky;
     top: 0px;
-    width: 100%;
+/*     width: 100%; */
 }
 
 header img{
